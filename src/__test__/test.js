@@ -1,8 +1,8 @@
 // import Buyable from './Buyable'
-import Movie from '../ts/Movie.js';
-import Gadget from '../ts/Gadget.js';
-import Book from '../ts/Book.js';
-import Cart from '../ts/Cart.js';
+import Movie from '../ts/Movie.ts';
+import Gadget from '../ts/Gadget.ts';
+import Book from '../ts/Book.ts';
+import Cart from '../ts/Cart.ts';
 
 const redHeat = new Movie(1, 'Red heat', 'USA', ['Action', 'Crime'], 390, 1988);
 const warAndPeace = new Book(2, 'Война и мир', 'Л.Н. Толстой', 1690, 1300);
